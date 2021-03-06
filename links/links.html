@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        div{
+            padding-top: 30px;
+            vertical-align: middle;
+            height: 20px;
+        }
+
+        div > a{
+            color: green;
+            text-decoration: underline;
+            border-right: solid 3px  red;
+            padding-left: 10px;
+            padding-right: 10px;  
+        }
+
+        td > a{
+            color: green;
+            text-decoration: underline;
+        }
+
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+
+            [href$="?hl=ru"]{
+            border: none;
+        }
+
+      .table-link{
+        border-right: solid 3px red;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      
+     .table-last-td{
+         border-right: 0;
+     }
+
+     .var3{
+         float: left;
+     }
+
+    </style>
+</head>
+<body>
+        <div>
+            <a href="https://www.onliner.by/" target="_blank">Первая ссылка</a>
+            <a href="https://www.tut.by/" target="_blank">Вторая ссылка</a>
+            <a href="https://pikabu.ru/" target="_blank">Третья ссылка</a>
+            <a href="https://ru.stackoverflow.com/" target="_blank">Четвертая ссылка</a>
+            <a href="https://www.instagram.com/?hl=ru" target="_blank">Пятая ссылка</a>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td class="table-link"><a href="https://www.onliner.by/" target="_blank">Первая ссылка</a></td>
+                    <td class="table-link"><a href="https://www.tut.by/" target="_blank">Вторая ссылка</a></td>
+                    <td class="table-link"><a href="https://pikabu.ru/" target="_blank">Третья ссылка</a></td>
+                    <td class="table-link"> <a href="https://ru.stackoverflow.com/" target="_blank">Четвертая ссылка</a></td>
+                    <td class="table-link table-last-td"> <a href="https://www.instagram.com/?hl=ru" target="_blank">Пятая ссылка</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+           <div class="var3"><a href="https://www.onliner.by/" target="_blank">Первая ссылка</a></div>
+           <div class="var3"><a href="https://www.tut.by/" target="_blank">Вторая ссылка</a></div>
+           <div class="var3"><a href="https://pikabu.ru/" target="_blank">Третья ссылка</a></div>
+           <div class="var3"><a href="https://ru.stackoverflow.com/" target="_blank">Четвертая ссылка</a></div>
+           <div class="var3"><a href="https://www.instagram.com/?hl=ru" target="_blank">Пятая ссылка</a></div>
+        </div>
+</body>
+</html>
