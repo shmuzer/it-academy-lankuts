@@ -5,18 +5,32 @@
   table.CHESS
   {
     border-collapse: collapse;
+    background-color: black;
   }
 
-  table.CHESS td
+  table.CHESS td:not(:first-of-type):not(:last-of-type)
   {
-    width: 50px;
+  width: 50px;
     height: 50px;
     border: solid gray 1px;
   }
 
-  /*:first-*, :last-*, :nth-*(odd) и :nth-*(even) использовать можно.*/
-  table.CHESS tr:nth-child(odd)  {
-	background: rgb(43, 41, 37);}
+  table.CHESS tr 
+
+  tr:first-of-type{background-color: chartreuse; height: 20px; border: solid gray 1px;}
+  tr:last-of-type{background-color: chartreuse; height: 20px; border: solid gray 1px;}
+  td:first-of-type{background-color: chartreuse;  20px;border: solid gray 1px;}
+  td:last-of-type{background-color: chartreuse; width: 20px; border: solid gray 1px;}
+
+  tr:not(:first-of-type):nth-child(odd) td:not(:last-of-type):nth-child(even),
+tr:not(:last-of-type):nth-child(even) td:not(:first-of-type):nth-child(odd) {
+  background: white;}
+
+  
+ 
+ 
+
+
 
   
 

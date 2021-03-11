@@ -8,18 +8,22 @@
     <style>
         a:hover
         {
-            background-image: url('/home_work_3_images/star1.png');
+            content: url('/home_work_3_images/star1.png');
         }
-
+        a:hover::before
+        {
+            content: attr(a:hover);
+        }
+       
     </style>
 </head>
 <body>
     <div>
         <a><img src="/home_work_3_images/star0.png"></a>
-        <img src="/home_work_3_images/star0.png">
-        <img src="/home_work_3_images/star0.png">
-        <img src="/home_work_3_images/star0.png">
-        <img src="/home_work_3_images/star0.png">
+        <a><img src="/home_work_3_images/star0.png"></a>
+        <a><img src="/home_work_3_images/star0.png"></a>
+        <a><img src="/home_work_3_images/star0.png"></a>
+        <a> <img src="/home_work_3_images/star0.png">
     </div>
 </body>
 </html>
