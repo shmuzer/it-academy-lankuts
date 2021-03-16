@@ -63,36 +63,53 @@
             padding: 20px
         }
 
-        .clearboth{
+        .clear{
             clear: both; 
         }
 
         @media screen and (max-width: 700px){
             h2{
-                color: rgb(63, 20, 220);
+                font-size: 16px;
             }
 
             .header{
-                display: block;
-            }
+                padding: 2px;
+            } 
 
             .nav{
-            display: inline-block;
-        }
+            float: none;
+            display: inline;
+            }
 
-        .mainimage{
-<<<<<<< HEAD
-           
-=======
->>>>>>> bc96aa79ecebf36ba6dbc9d21d0204b6115f443d
-            padding-right: 10px; 
-           
-        }
+            .nav-heading{
+                display: none;
+            }
 
-        .bg{
-            background: 
-            url('/home_work_3_images/purple-backround-200px.png') left top repeat-y,
-        }
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding-right: 10px;
+            }
+
+            ul{
+                text-align: center;
+            }
+
+            .article-div{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px
+            }
+
+            .mainimage{
+                float: none;
+                width: 100%;
+            }
+
+            .bg{
+                background: url('/home_work_3_images/purple-backround-200px.png') left top repeat-x, 
+            url('/home_work_3_images/shpric.png') right top no-repeat;
+            }
 
         }
     </style>
@@ -118,6 +135,7 @@
                         <li><a href="https://officelife.media/news/23496-vlasti-khotyat-opredelit-yuridicheskuyu-silu-resheniy-vsebelorusskogo-sobraniya/" target="_blank">Недвижимость</a><br>
                         <li><a href="https://officelife.media/tags/relokatsiya/" target="_blank">Архив</a><br>
                         </ul>
+                        <hr>
                 </div>
             </div>
             <div class="article-div">
@@ -139,7 +157,7 @@
                             В Беларуси планируют выпускать по 500 тысяч доз &laquo;Спутника V&raquo; в месяц, однако окончательная цифра будет зависеть от возможностей и потребностей Минздрава республики, пояснил гендиректор &laquo;Белмедпрепаратов&raquo; Сергей Беляев.
                             </p>
                 </div>
-                <div class="clearboth"></div>        
+                <div class="clear"></div>        
             </div>
     <div class="footer">
         &copy; 2021 Новостной портал &laquo;Жизнь в городе&raquo;
