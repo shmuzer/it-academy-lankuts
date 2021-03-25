@@ -8,20 +8,29 @@
     <title>Блочная Верстка</title>
     <style>
         H2{
-            color: brown;
+            color: rgb(7, 7, 7);
+        }
+
+        a{
+            color:rgb(8, 8, 8);
+        }
+
+        a:hover{
+            color: gray;
         }
 
         .header{
             padding: 10px; 
             text-align: center; 
-            background: greenyellow;
+            background: rgb(126, 179, 48);
         }
 
         .footer{
             clear: both; 
             padding: 20px; 
             text-align: right; 
-            background: rgb(231, 218, 218);
+            color: white;
+            background: #4d4d4f;          
         }
 
         .mainimage{
@@ -32,8 +41,8 @@
 
         .bg{
             background: 
-            url('/home_work_3_images/purple-backround-200px.png') left top repeat-y, 
-            url('/home_work_3_images/shpric.png') right top repeat-y
+            url('/it-academy-lankuts/home_work_3_images/purple-backround-200px.png') left top repeat-y, 
+            url('/it-academy-lankuts/home_work_3_images/shpric.png') right top repeat-y
         }
 
         .nav{
@@ -42,9 +51,11 @@
         }
 
         .nav-nav{
-            padding-left: 20px; 
+            float: left;
+            padding-left: 10px; 
             padding-top: 30px; 
             padding-bottom: 10px;
+            line-height: 1.5em;          
         }
 
         .nav-nav-heading{
@@ -60,14 +71,15 @@
 
         .article-div{
             margin-left: 200px; 
-            padding: 20px
+            padding: 20px;
         }
 
         .clear{
             clear: both; 
         }
 
-        @media screen and (max-width: 700px){
+        @media screen and (max-width: 768px)
+        {
             h2{
                 font-size: 16px;
             }
@@ -79,6 +91,13 @@
             .nav{
             float: none;
             display: inline;
+            }
+
+            .nav-nav{
+            padding-left: 0px; 
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            box-shadow: 0 3px 18px rgb(0 0 0 / 8%);
             }
 
             .nav-heading{
@@ -93,12 +112,84 @@
 
             ul{
                 text-align: center;
+                padding: 0;
+                margin: 8px;
+            }
+
+            .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+            padding-top: 90px;
             }
 
             .article-div{
             margin-left: 20px;
             margin-right: 20px;
-            padding: 20px
+            padding: 20px;
+            padding-top: 50px;
+            }
+
+            .mainimage{
+                float: left;
+                width: 50%;
+            }
+
+            .bg{
+                background: 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
+            }
+        }   
+        @media screen and (max-width: 550px){
+            h2{
+                font-size: 16px;
+            }
+
+            .header{
+                padding: 2px;
+            } 
+
+            .nav{
+            float: none;
+            display: inline;
+            }
+
+            .nav-nav{
+            padding-left: 0px; 
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            box-shadow: 0 3px 18px rgb(0 0 0 / 8%);
+            }
+
+            .nav-heading{
+                display: none;
+            }
+
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding-right: 10px;
+            }
+
+            ul{
+                text-align: center;
+                padding: 0;
+                margin: 8px;
+            }
+
+            .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+            padding-top: 90px;
+            }
+
+            .article-div{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            padding-top: 50px;
             }
 
             .mainimage{
@@ -107,8 +198,71 @@
             }
 
             .bg{
-                background: url('/home_work_3_images/purple-backround-200px.png') left top repeat-x, 
-            url('/home_work_3_images/shpric.png') right top no-repeat;
+                background: 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
+            }
+        }
+            @media screen and (max-width: 334px){
+            h2{
+                font-size: 16px;
+            }
+
+            .header{
+                padding: 2px;
+            } 
+
+            .nav{
+            float: none;
+            display: inline;
+            }
+
+            .nav-nav{
+            padding-left: 0px; 
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            box-shadow: 0 3px 18px rgb(0 0 0 / 8%);
+            }
+
+            .nav-heading{
+                display: none;
+            }
+
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding-right: 10px;
+            }
+
+            ul{
+                text-align: center;
+                padding: 0;
+                margin: 8px;
+            }
+
+            .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+            padding-top: 120px;
+            }
+
+            .article-div{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            padding-top: 50px;
+            }
+
+            .mainimage{
+                float: none;
+                width: 100%;
+            }
+
+            .bg{
+                background: 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
             }
 
         }
@@ -135,14 +289,13 @@
                         <li><a href="https://officelife.media/news/23496-vlasti-khotyat-opredelit-yuridicheskuyu-silu-resheniy-vsebelorusskogo-sobraniya/" target="_blank">Недвижимость</a><br>
                         <li><a href="https://officelife.media/tags/relokatsiya/" target="_blank">Архив</a><br>
                         </ul>
-                        <hr>
                 </div>
             </div>
             <div class="article-div">
                 <div class="article-heading">
                     Массовая вакцинация белорусов от COVID-19 начнется в апреле
                 </div>
-                        <img src="/home_work_3_images/minzdrav.jpeg" class="mainimage">
+                        <img src="/it-academy-lankuts/home_work_3_images/minzdrav.jpeg" class="mainimage">
                             <p>
                             Сейчас в Беларуси завершается вакцинация от коронавируса тех специалистов, которые нуждаются в этом в рамках своей профессиональной деятельности. Министр здравоохранения Дмитрий Пиневич сообщил, что массово вакцинировать население начнут с апреля, пишет пресс&ndash;служба Минздрава.</p>
 
