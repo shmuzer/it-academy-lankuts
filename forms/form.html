@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <style>
+      
+        label {
+            padding-top: 20px;
+        }
+
+        .text {
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+<div>
+        <form>
+        <h3>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</h3>
+        <label>
+            Имя 
+            <input class="text" type="text" name="name">
+        </label><br><br>
+        <label>
+            Рубрика<br>
+            <select name="aticleName">
+                <option value="1">
+                    Дизайн
+                </option>
+                <option value="2">
+                    Верстка
+                </option>
+                <option value="3" selected>
+                    Программирование
+                </option>
+            </select>
+        </label><br><br>
+        <label>
+            Публикация<br>
+            <input type="radio" name="publication" value="1"> На сайте<br>
+            <input type="radio" name="publication" value="2"> В журнале<br>
+            <input type="radio" name="publication" value="3"> На сайте и в журнале<br>
+        </label><br><br>
+        <label>
+            Разрешить комментарии
+            <input type="checkbox" name="comment" checked>
+        </label><br><br>
+        <label>
+            Текст статьи:<br>
+            <textarea class="text type="textarea" name="article"></textarea>
+        </label>
+        </form>
+</div>
+
+
+</body>
+</html>

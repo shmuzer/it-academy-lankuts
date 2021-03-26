@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Блочная Верстка</title>
+    <style>
+        H2{
+            color: rgb(7, 7, 7);
+        }
+
+        a{
+            color:rgb(8, 8, 8);
+        }
+
+        a:hover{
+            color: gray;
+        }
+
+        .header{
+            padding: 10px; 
+            text-align: center; 
+            background: rgb(126, 179, 48);
+        }
+
+        .footer{
+            clear: both; 
+            padding: 20px; 
+            text-align: right; 
+            color: white;
+            background: #4d4d4f;          
+        }
+
+        .mainimage{
+            float: left; 
+            padding-right: 10px; 
+            padding-top: 20px; 
+        }
+
+        .bg{
+            background: 
+            url('/it-academy-lankuts/home_work_3_images/purple-backround-200px.png') left top repeat-y, 
+            url('/it-academy-lankuts/home_work_3_images/shpric.png') right top repeat-y
+        }
+
+        .nav{
+            float: left; 
+            width: 200px;
+        }
+
+        .nav-nav{
+            float: left;
+            padding-left: 10px; 
+            padding-top: 30px; 
+            padding-bottom: 10px;
+            line-height: 1.5em;          
+        }
+
+        .nav-nav-heading{
+            font-weight: 600;
+             padding-bottom: 10px;
+        }
+
+        .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+        }
+
+        .article-div{
+            margin-left: 200px; 
+            padding: 20px;
+        }
+
+        .clear{
+            clear: both; 
+        }
+
+        @media screen and (max-width: 768px)
+        {
+            h2{
+                font-size: 16px;
+            }
+
+            .header{
+                padding: 2px;
+            } 
+
+            .nav{
+            float: none;
+            display: inline;
+            }
+
+            .nav-nav{
+            padding-left: 0px; 
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            box-shadow: 0 3px 18px rgb(0 0 0 / 8%);
+            }
+
+            .nav-heading{
+                display: none;
+            }
+
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding-right: 10px;
+            }
+
+            ul{
+                text-align: center;
+                padding: 0;
+                margin: 8px;
+            }
+
+            .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+            padding-top: 90px;
+            }
+
+            .article-div{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            padding-top: 50px;
+            }
+
+            .mainimage{
+                float: left;
+                width: 50%;
+            }
+
+            .bg{
+                background: 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
+            }
+        }   
+        @media screen and (max-width: 550px){
+            h2{
+                font-size: 16px;
+            }
+
+            .header{
+                padding: 2px;
+            } 
+
+            .nav{
+            float: none;
+            display: inline;
+            }
+
+            .nav-nav{
+            padding-left: 0px; 
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            box-shadow: 0 3px 18px rgb(0 0 0 / 8%);
+            }
+
+            .nav-heading{
+                display: none;
+            }
+
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding-right: 10px;
+            }
+
+            ul{
+                text-align: center;
+                padding: 0;
+                margin: 8px;
+            }
+
+            .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+            padding-top: 90px;
+            }
+
+            .article-div{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            padding-top: 50px;
+            }
+
+            .mainimage{
+                float: none;
+                width: 100%;
+            }
+
+            .bg{
+                background: 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
+            }
+        }
+            @media screen and (max-width: 334px){
+            h2{
+                font-size: 16px;
+            }
+
+            .header{
+                padding: 2px;
+            } 
+
+            .nav{
+            float: none;
+            display: inline;
+            }
+
+            .nav-nav{
+            padding-left: 0px; 
+            padding-top: 0px; 
+            padding-bottom: 0px;
+            box-shadow: 0 3px 18px rgb(0 0 0 / 8%);
+            }
+
+            .nav-heading{
+                display: none;
+            }
+
+            li{
+                display: inline-block;
+                margin: 5px;
+                padding-right: 10px;
+            }
+
+            ul{
+                text-align: center;
+                padding: 0;
+                margin: 8px;
+            }
+
+            .article-heading{
+            font-size: 18px; 
+            font-weight: 700; 
+            text-align: center;
+            padding-top: 120px;
+            }
+
+            .article-div{
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 20px;
+            padding-top: 50px;
+            }
+
+            .mainimage{
+                float: none;
+                width: 100%;
+            }
+
+            .bg{
+                background: 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+                url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>СЕГОДНЯ В ФОКУСЕ</h2>
+    </div>
+        <div class="bg">
+            <div class="nav">
+                <div class="nav-nav">
+                        <div class="nav-heading">
+                            Навигационное меню
+                        </div>
+                        <ul>
+                        <li><a href="https://officelife.media/last_news/" target="_blank">События</a><br>
+                        <li><a href="https://officelife.media/article/people/" target="_blank">Люди</a><br>
+                        <li><a href="htthttps://officelife.media/conferences/" target="_blank">Мероприятия</a><br>
+                        <li><a href="https://officelife.media/tags/igroki/" target="_blank">Советы</a><br>
+                        <li><a href="https://officelife.media/tags/konstitutsiya/" target="_blank">Афиша<a><br>
+                        <li><a href="https://officelife.media/test/" target="_blank">Зарубежные новости</a><br>
+                        <li><a href="https://officelife.media/tags/hr/" target="_blank">Авто</a><br>
+                        <li><a href="https://officelife.media/news/23496-vlasti-khotyat-opredelit-yuridicheskuyu-silu-resheniy-vsebelorusskogo-sobraniya/" target="_blank">Недвижимость</a><br>
+                        <li><a href="https://officelife.media/tags/relokatsiya/" target="_blank">Архив</a><br>
+                        </ul>
+                </div>
+            </div>
+            <div class="article-div">
+                <div class="article-heading">
+                    Массовая вакцинация белорусов от COVID-19 начнется в апреле
+                </div>
+                        <img src="/it-academy-lankuts/home_work_3_images/minzdrav.jpeg" class="mainimage">
+                            <p>
+                            Сейчас в Беларуси завершается вакцинация от коронавируса тех специалистов, которые нуждаются в этом в рамках своей профессиональной деятельности. Министр здравоохранения Дмитрий Пиневич сообщил, что массово вакцинировать население начнут с апреля, пишет пресс&ndash;служба Минздрава.</p>
+
+                            <p>Что касается всех желающих, то министр сказал следующее: &laquo; Пока записываем, считаем желающих &mdash; их много. Приступим к вакцинации, когда получим свою вакцину в массовом производстве. Сейчас завершается вакцинация тех, кто в ней нуждается более всего &mdash; специалистов, которые находятся в группах риска&raquo;.</p>
+
+                            <p>Дмитрий Пиневич также рассказал, что&laquo; сегодня в Беларусь пришла партия 40 тысяч доз второго компонента вакцины &laquo;Спутник V&raquo; из России. Должна прибыть еще одна стотысячная партия. Ранее мы уже сообщали о прибытии в Минск китайской вакцины для проведения вакцинации 50 тысяч человек&raquo;.
+                            </p>
+                            <p>
+                            Промышленный выпуск российского препарата &laquo;Спутник V&raquo; на белорусских мощностях должен начаться в конце марта. &laquo;Белмедпрепараты&raquo; уже создали пробную дозу вакцины, а ее испытательный розлив начался 1 марта.
+                            </p>
+                            <p>
+                            В Беларуси планируют выпускать по 500 тысяч доз &laquo;Спутника V&raquo; в месяц, однако окончательная цифра будет зависеть от возможностей и потребностей Минздрава республики, пояснил гендиректор &laquo;Белмедпрепаратов&raquo; Сергей Беляев.
+                            </p>
+                </div>
+                <div class="clear"></div>        
+            </div>
+    <div class="footer">
+        &copy; 2021 Новостной портал &laquo;Жизнь в городе&raquo;
+    </div>
+</body>
+</html>
