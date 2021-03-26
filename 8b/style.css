@@ -1,0 +1,54 @@
+body{
+    padding: 15px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+div p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images { 
+    max-width: 400px; 
+    margin: 0 auto; 
+    height: 340px; 
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+.bio{
+    top: 0px;
+    left: 200px;
+}
+.bio:hover{
+    z-index: 2;
+}
+
+.nosm{
+    top: 20px;
+    left: 80px;
+    z-index: 1;
+}
+
+.man{
+    top: 0;
+    left: 0;
+}
+.man:hover{
+    z-index: 2;
+}
+
+.inyan{
+    top: 150px;
+    left: 105px;
+}
+.inyan:hover{
+    z-index: 2;
+}
