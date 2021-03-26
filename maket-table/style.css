@@ -32,7 +32,6 @@ div.ad{
     background-color: rgb(236, 193, 73);
     text-decoration: underline;
     text-transform: uppercase;
-    vertical-align: middle !important;
     z-index: 1;
 }
 
@@ -52,8 +51,8 @@ div.ad{
 
 .bg{
     background: 
-    url('/home_work_3_images/purple-backround-200px.png') left top repeat-y, 
-    url('/home_work_3_images/shpric.png') right top repeat-y
+    url('/it-academy-lankuts/home_work_3_images/purple-backround-200px.png') left top repeat-y, 
+    url('/it-academy-lankuts/home_work_3_images/shpric.png') right top repeat-y
 }
 
 .nav{
@@ -111,6 +110,7 @@ div.ad{
         text-decoration: underline;
         text-transform: uppercase;
         z-index: 1;
+    }
 
     .nav{
     float: none;
@@ -161,8 +161,8 @@ div.ad{
 
     .bg{
         background: 
-        url('/home_work_3_images/1px.gif') left top repeat-x, 
-        url('/home_work_3_images/1px.gif') right top no-repeat;
+        url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
+        url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
     }
 }   
 @media screen and (max-width: 550px){
@@ -185,7 +185,6 @@ div.ad{
         padding: 5px;
         border: solid 1px black;
         background-color: rgb(236, 193, 73);
-        vertical-align: middle;
         text-decoration: underline;
         text-transform: uppercase;
         z-index: 1;
@@ -240,7 +239,7 @@ div.ad{
 
     .bg{
         background: 
-        url('/home_work_3_images/1px.gif') left top repeat-x, 
+        url('/it-academy-lankuts/home_work_3_images/1px.gif') left top repeat-x, 
         url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
     }
 }
@@ -310,4 +309,4 @@ div.ad{
         url('/it-academy-lankuts/home_work_3_images/1px.gif') right top no-repeat;
     }
 
-}v
+}
