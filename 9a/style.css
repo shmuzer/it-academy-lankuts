@@ -1,0 +1,14 @@
+.video{
+    border: solid 2px;
+    width: 300px;
+    height: 500px;
+    overflow: auto;
+}
+
+.video__detail{
+    padding-bottom: 1.5em;
+}
+
+a{
+    
+}
