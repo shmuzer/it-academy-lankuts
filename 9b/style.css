@@ -1,0 +1,17 @@
+#star:hover{
+    color: yellow;
+
+}
+
+.moon{
+color: wheat;
+}
+
+#rocket{
+fill: rgb(199, 33, 33);
+stroke:yellow;
+}
+
+#sky{
+color:rgb(65, 65, 240);
+}
