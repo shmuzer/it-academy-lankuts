@@ -1,11 +1,30 @@
+.star{
+
+}
+
 #star:hover{
     color: yellow;
-
 }
 
-.moon{
-color: wheat;
+#svg_40{
+    stroke="#000"
+    fill="#ffffff"
 }
+
+#svg_40:hover{
+    stroke: orange;
+    fill: red;
+}
+
+
+#svg_54{
+    fill="#ffffff"
+}
+
+#svg_54:hover{
+fill:yellow !important;
+}
+
 
 #rocket{
 fill: rgb(199, 33, 33);
