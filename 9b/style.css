@@ -1,14 +1,106 @@
-.star{
-
+/*стили для звезд*/
+#svg_55{
+    fill: #ffffff;
 }
 
-#star:hover{
-    color: yellow;
+#svg_55:hover{
+    fill: yellow;
 }
 
+#svg_49{
+    fill: #ffffff;
+}
+
+#svg_49:hover{
+    fill: yellow;
+}
+
+#svg_46{
+    fill: #ffffff;
+}
+
+#svg_46:hover{
+    fill: yellow;
+}
+
+#svg_45{
+    fill: #ffffff;
+}
+
+#svg_45:hover{
+    fill: yellow;
+}
+
+#svg_48{
+    fill: #ffffff;
+}
+
+#svg_48:hover{
+    fill: yellow;
+}
+
+#svg_43{
+    fill: #ffffff;
+}
+
+#svg_43:hover{
+    fill: yellow;
+}
+
+#svg_47{
+    fill: #ffffff;
+}
+
+#svg_47:hover{
+    fill: yellow;
+}
+
+#svg_44{
+    fill: #ffffff;
+}
+
+#svg_44:hover{
+    fill: yellow;
+}
+
+/*стили для облаков*/
+#svg_51{
+    fill: #ffffff;
+}
+
+#svg_51:hover{
+    fill: rgb(51, 109, 235);
+}
+
+#svg_50{
+    fill: #ffffff;
+}
+
+#svg_50:hover{
+    fill: rgb(51, 109, 235);
+}
+
+#svg_53{
+    fill: #ffffff;
+}
+
+#svg_53:hover{
+    fill: rgb(51, 109, 235);
+}
+
+#svg_51{
+    fill: #ffffff;
+}
+
+#svg_51:hover{
+    fill: rgb(51, 109, 235);
+}
+
+
+/*стили для рокеты*/
 #svg_40{
-    stroke="#000"
-    fill="#ffffff"
+    stroke: #000;
+    fill: ffffff;
 }
 
 #svg_40:hover{
@@ -16,21 +108,11 @@
     fill: red;
 }
 
-
+/*стили для месяца*/
 #svg_54{
-    fill="#ffffff"
+    fill: #ffffff;
 }
 
 #svg_54:hover{
-fill:yellow !important;
-}
-
-
-#rocket{
-fill: rgb(199, 33, 33);
-stroke:yellow;
-}
-
-#sky{
-color:rgb(65, 65, 240);
+fill: yellow !important;
 }
