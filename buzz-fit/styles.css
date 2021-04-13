@@ -43,32 +43,58 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 h1{
     font-family: 'Mriya Grotesk';
 font-style: normal;
-font-weight: 800;
-font-size: 46px;
+font-weight: 900;
+font-size: 45px;
 line-height: 120%;
-/* or 55px */
+/* identical to box height, or 54px */
 
 letter-spacing: -0.025em;
 }
 
 h2{
-    font-family: Mriya Grotesk;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 43px;
-    letter-spacing: -0.025em;
-    text-align: left;
+    font-family: 'Mriya Grotesk';
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+
+letter-spacing: -0.025em;
 }
 
 h3{
+    font-family: 'Mriya Grotesk';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+
+letter-spacing: -0.025em;
+text-transform: uppercase;
+}
+
+h4{
     font-family: Mriya Grotesk;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 43px;
-    letter-spacing: -0.025em;
-    text-align: left;
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 140%;
+/* or 36px */
+
+letter-spacing: -0.025em;
+text-transform: uppercase;
+}
+
+h5{
+    font-family: Mriya Grotesk;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+letter-spacing: -0.025em;
 }
 
 .btn_cta{
