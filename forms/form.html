@@ -10,20 +10,23 @@
 <body>
 <div>
         <form>
+
+
         <h3>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</h3>
-        <div style="display: inline-block; float: left;">
-            <div style="width: 25%; float: left;">
-                <label>
-                    Название статьи 
-                </label> 
+            <div style="margin: 0 auto">
+                <div>
+                    <label>
+                        <div style="float: left">
+
+                                Название статьи
+                        </div>
+                        <div>
+                            <input class="text" type="text" name="articleName">
+                        </div>
+                    </label>
+                </div>
             </div>
-            <div style="width: 75%;">      
-                <input class="text" type="text" name="articleName">
-            </div>        
-                
-                
-        </div>
-        <div style="display: inline-block;">
+        <div>
             <label>
                 Рубрика
                 <select name="rubrika">
@@ -39,7 +42,7 @@
                 </select>
             </label>
         </div>    
-        <div style="display: inline-block;">
+        <div>
             <label>
                 Публикация
                 <input type="radio" name="publication" value="1"> На сайте
@@ -47,14 +50,14 @@
                 <input type="radio" name="publication" value="3"> На сайте и в журнале
             </label>
         </div>
-        <div style="display: inline-block;">
+        <div>
             <label>
                 Разрешить комментарии
                 <input type="checkbox" name="comment" checked>
             </label>
         </div>
 
-        <div style="display: inline-block;">
+        <div>
             <label>
                 Текст статьи:
                 <textarea class="text type="textarea" name="article"></textarea>
@@ -65,7 +68,5 @@
         </div> 
         </form>
 </div>
-
-
 </body>
 </html>

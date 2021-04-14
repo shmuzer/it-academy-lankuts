@@ -40,6 +40,63 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+header{
+    height: 250px;
+    width: auto;
+}
+
+.container{
+    max-width: 1170px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.logo{
+    
+}
+
+.wrapper_header{
+    text-align: right;
+    position: absolute;
+    width: 1170px;
+    height: 46.58px;
+    left: 245.24px;
+    top: 62px;
+    
+
+}
+
+.header_logo{
+    position: absolute;
+    width: 206.84px;
+    height: 46.58px;
+    top: 0.35%;
+    bottom: 99.38%;
+}
+
+.header_menu_link{
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #7C808A;
+}
+
+.header_menu_login{
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #7C808A;
+}
+.header_menu_login::before{
+    content: url(../buzz-fit/img/Login\ Icon.png);
+}
+
 h1{
     font-family: 'Mriya Grotesk';
 font-style: normal;
