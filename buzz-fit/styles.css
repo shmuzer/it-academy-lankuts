@@ -321,6 +321,15 @@ header{
 }
 
 .first-screen-image{
+    display: flex;
+}
+
+.img-max{
     position: absolute;
-    right: 0px;
+}
+
+.scnd-screen{
+    display: flex;
+    flex-basis: 1660px;
+    background: #E8F5FE;
 }
