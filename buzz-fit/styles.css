@@ -99,6 +99,23 @@ line-height: 150%;
 letter-spacing: -0.025em;
 }
 
+.block-heading-1{
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 120%;
+    padding: ;
+    /* identical to box height, or 54px */
+
+    letter-spacing: -0.025em;
+
+    /* Heading Dark */
+
+    color: #292930;
+}
+
+
 .title{
     font-family: 'Mriya Grotesk';
     font-style: normal;
@@ -257,6 +274,9 @@ header{
 
 .main{
     display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
 
 }
 
@@ -278,7 +298,7 @@ header{
 .first-screen{
     display: flex;
 
-    flex-basis: 1392px; height: 801px;
+     height: 801px;
     margin: 0 auto;
 }
 
@@ -330,6 +350,7 @@ header{
 
 .scnd-screen{
     display: flex;
+    flex-direction: column;
     flex-basis: 1660px;
     background: #E8F5FE;
 }
