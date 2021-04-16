@@ -99,23 +99,6 @@ line-height: 150%;
 letter-spacing: -0.025em;
 }
 
-.block-heading-1{
-    font-family: 'Mriya Grotesk';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 120%;
-    padding: ;
-    /* identical to box height, or 54px */
-
-    letter-spacing: -0.025em;
-
-    /* Heading Dark */
-
-    color: #292930;
-}
-
-
 .title{
     font-family: 'Mriya Grotesk';
     font-style: normal;
@@ -351,6 +334,25 @@ header{
 .scnd-screen{
     display: flex;
     flex-direction: column;
-    flex-basis: 1660px;
+    height: 950px;
     background: #E8F5FE;
+   
 }
+
+.block-heading-1{
+    flex: auto;
+   flex-basis: 60%;
+    
+    font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 120%;
+    letter-spacing: -0.025em;
+    color: #292930;
+}
+.heading-img{
+    flex: auto;
+    flex-basis: 40%;
+}
+
