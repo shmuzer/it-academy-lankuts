@@ -8,6 +8,16 @@
 </head>
 <body>
     <script>
+
+            // объявляю переменные для вывода сообщений
+            var ageMsg='ваше ФИО:';
+            var yearMsg='ваш возраст в годах:';
+            var yearDaysMsg='ваш возраст в днях:';
+            var yearAfter5YearsMsg='через 5 лет вам будет:';
+            var genderMsg='ваш пол:';
+            var pensionMsg='вы на пенсии:';
+
+
             var surname=prompt('Введите имя:'); //спрашиваеи имя
 
             var name=prompt('Введите фамлию:'); //спрашиваеи фамилию
@@ -22,30 +32,24 @@
                     ageStr=prompt('Введите ваш возраст цифрами:');
                     }
 
-            var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); // спрашиваем пол 
-            if ( gender )
-                ('мужской');
+            
+            // спрашиваем пол         
+            var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); 
+            if (gender)
+                var m='мужской';
             else    
-                ('женский');   
+                var m='женский';   
                 
             //проверка на пенсию
             var pension
             if ( age<60, gender==true )
-                ('да')
+                pension='да';
             if ( age>60, gender==false )
-                 ('нет')   
+                 pension='нет';   
 
 
-            // объявляю переменные для вывода сообщений
-            var ageMsg='ваше ФИО:';
-            var yearMsg='ваш возраст в годах:';
-            var yearDaysMsg='ваш возраст в днях:';
-            var yearAfter5YearsMsg='через 5 лет вам будет:';
-            var genderMsg='ваш пол:';
-            var pensionMsg='вы на пенсии:';
-           
             //выводжу алерт с итогами анкеты
-            alert( ageMsg + surname + name + patronymic + yearMsg + age + yearDaysMsg + ( age*365 ) + yearAfter5YearsMsg + (age+5) + genderMsg + gender + pensionMsg + pension );
+            alert(' (ageMsg + surname + name + patronymic)/n(yearMsg + age) + (yearDaysMsg+ (age*365)) + (yearAfter5YearsMsg + ( age+5 )) + (genderMsg + m) + (pensionMsg + pension)');
     </script>
 </body>
 </html>
