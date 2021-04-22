@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета пользовтаеля</title>
+</head>
+<body>
+    <script>
+
+            // объявляю переменные для вывода сообщений
+            var ageMsg='Ваше ФИО:';
+            var yearMsg='Ваш возраст в годах:';
+            var yearDaysMsg='Ваш возраст в днях:';
+            var yearAfter5YearsMsg='Через 5 лет вам будет:';
+            var genderMsg='Ваш пол:';
+            var pensionMsg='Вы на пенсии:';
+
+
+            var name=prompt('Введите имя:'); //спрашиваем имя
+
+            var surname=prompt('Введите фамлию:'); //спрашиваем фамилию
+
+            var patronymic=prompt('Введите отчество:'); // //спрашиваем отчество
+
+            var ageStr=prompt('Сколько вам полных лет?'); // спрашиваем сколько лет с проверкой на числовое значение
+                while ( true ) {
+                    var age=parseInt(ageStr);
+                    if ( !isNaN(age) )
+                        break;
+                    ageStr=prompt('Введите ваш возраст цифрами:');
+                    }
+// спрашиваем пол         
+var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); 
+      if (gender)
+                var m='мужской';
+            else    
+                var m='женский';   
+                  
+    
+            //проверка на пенсию
+            var pension
+            if ( age<60, gender==true )
+                pension='нет';
+            if ( age>60, gender==false )
+                 pension='да';   
+
+
+            //выводжу алерт с итогами анкеты
+            alert( ageMsg + " " + surname + " " + name + " " + patronymic + "\r\n" + yearMsg + " " + age + "\r\n" + yearDaysMsg + " " + (age*365) + "\r\n" + yearAfter5YearsMsg + " " + ( age+5 ) + "\r\n" + genderMsg + " " + m + "\r\n" + pensionMsg + " " + pension);
+    </script>
+</body>
+</html>
