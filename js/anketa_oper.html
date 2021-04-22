@@ -35,25 +35,11 @@
             
             // спрашиваем пол         
             var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); 
-            /*
-            if (gender)
-                var m='мужской';
-            else    
-                var m='женский';  
-            */    
-           
             var m=(gender==true)?"мужской ":"женский ";
                 
             //проверка на пенсию
             var pension=(age<60, gender==true)?'нет':'да';
-            /*
-            if ( age<60, gender==true )
-                pension='да';
-            if ( age>60, gender==false )
-                 pension='нет';   
-            */
-
-            //выводжу алерт с итогами анкеты
+        
              //выводжу алерт с итогами анкеты
              alert( ageMsg + " " + surname + " " + name + " " + patronymic + "\r\n" + yearMsg + " " + age + "\r\n" + yearDaysMsg + " " + (age*365) + "\r\n" + yearAfter5YearsMsg + " " + ( age+5 ) + "\r\n" + genderMsg + " " + m + "\r\n" + pensionMsg + " " + pension);
     </script>
