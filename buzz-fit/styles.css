@@ -168,10 +168,14 @@ header{
 }
 
 .header-container{
-    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
     height: 250px;
     margin: 0 auto;
+    padding-top: 55px;
 }
+
 
 .wrapper_header{
     text-align: right;
@@ -182,18 +186,18 @@ header{
     top: 62px;
 }
 
-.header_logo{
-    position: absolute;
+/*.header_logo{
+   /* position: absolute;
     width: 206.84px;
     height: 46.58px;
     top: 0.35%;
     bottom: 99.38%;
-}
+}*/
 
 .header_btn{
     display: flex;
     justify-content: center;
-    padding: 12px;
+    padding: 13px;
     width: 121px;
     height: 45px;
     background: #61B2AA;
@@ -220,11 +224,9 @@ header{
 }
 
 .header-links
-{position: relative;
+{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%; 
+    padding-top: 15px;
 }
 
 .header_menu_link{
@@ -233,8 +235,9 @@ header{
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    text-align: right;
+    /* text-align: right; */
     color: #7C808A;
+    padding: 40px;
 }
 
 
@@ -246,9 +249,12 @@ header{
     line-height: 19px;
     text-align: right;
     color: #7C808A;
+    padding: 40px;
+    padding: 40px;
 }
 .header_menu_login::before{
     content: url(../buzz-fit/img/Login\ Icon.png);
+    padding-right: 5px;
 }
 /* header end*/
 
@@ -331,18 +337,25 @@ header{
     position: absolute;
 }
 
-.scnd-screen{
+/*.scnd-screen{
     display: flex;
     flex-direction: column;
     height: 950px;
+    background: #E8F5FE;}*/
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 950px;
     background: #E8F5FE;
-   
 }
 
 .block-heading-1{
     flex: auto;
-   flex-basis: 60%;
-    
+    flex-basis: 60%;
     font-family: 'Mriya Grotesk';
     font-style: normal;
     font-weight: 900;
@@ -356,3 +369,13 @@ header{
     flex-basis: 40%;
 }
 
+.first-line{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+.article-text{
+
+}
