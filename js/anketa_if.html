@@ -41,10 +41,14 @@ var gender=confirm('Если ваш пол мужской, нажмите "Ок"
     
             //проверка на пенсию
             var pension
-            if ( age<60, gender==true )
+            if ( age<63 && gender==true )
                 pension='нет';
-            if ( age>60, gender==false )
-                 pension='да';   
+            if ( age>=63 && gender==true )
+                 pension='да'; 
+            if ( age<60 && gender==false )
+                pension='нет';
+            if ( age>=60 && gender==false )
+                 pension='да';
 
 
             //выводжу алерт с итогами анкеты
