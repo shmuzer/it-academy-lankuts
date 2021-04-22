@@ -10,14 +10,14 @@
     <script>
 
             // объявляю переменные для вывода сообщений
-            var ageMsg='ваше ФИО:';
-            var yearMsg='ваш возраст в годах:';
-            var yearDaysMsg='ваш возраст в днях:';
-            var yearAfter5YearsMsg='через 5 лет вам будет:';
-            var genderMsg='ваш пол:';
-            var pensionMsg='вы на пенсии:';
+            var ageMsg='ваше ФИО: ';
+            var yearMsg='ваш возраст в годах: ';
+            var yearDaysMsg='ваш возраст в днях: ';
+            var yearAfter5YearsMsg='через 5 лет вам будет: ';
+            var genderMsg='ваш пол: ';
+            var pensionMsg='вы на пенсии: ';
 
-
+4rer
             var surname=prompt('Введите имя:'); //спрашиваеи имя
 
             var name=prompt('Введите фамлию:'); //спрашиваеи фамилию
@@ -54,7 +54,8 @@
             */
 
             //выводжу алерт с итогами анкеты
-            alert (('Ваше ФИО: ' + surname  + name  + patronymic)/n ('Ваш возраст: ' + age) + 'Ваш возраст в днях: ' + (age*365) + 'Через 5 лет вам будет: ' + ( age+5 ) + 'Ваш пол: ' + m +  'Вы на пенсии: ' + pension);
+             //выводжу алерт с итогами анкеты
+             alert( ageMsg + surname + name + patronymic + "\r\n" + yearMsg + age + "\r\n" + yearDaysMsg+ (age*365) + "\r\n" + yearAfter5YearsMsg + ( age+5 ) + "\r\n" + genderMsg + m + "\r\n" + pensionMsg + pension);
     </script>
 </body>
 </html>
