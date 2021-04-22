@@ -24,9 +24,9 @@
 
             var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); // спрашиваем пол 
             if (gender)
-               console.log('мужской');
+                console.log('мужской');
             else    
-            console.log('женский');   
+                console.log('женский');
                 
             //проверка на пенсию
             var pension
@@ -45,7 +45,7 @@
             var pensionMsg='вы на пенсии:';
            
             //выводжу алерт с итогами анкеты
-            alert( ageMsg + surname + name + patronymic + yearMsg + age + yearDaysMsg + ( age*365 ) + yearAfter5YearsMsg + (age+5) + genderMsg + gender + pensionMsg + pension );
+            alert( ageMsg + surname + name + patronymic+"\r\n" + yearMsg + age + yearDaysMsg + ( age*365 ) + yearAfter5YearsMsg + (age+5) + genderMsg + gender + pensionMsg + pension );
     </script>
 </body>
 </html>
