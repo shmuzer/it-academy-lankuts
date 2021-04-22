@@ -32,36 +32,29 @@
                     ageStr=prompt('Введите ваш возраст цифрами:');
                     }
 
-<<<<<<< HEAD
-            var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); // спрашиваем пол 
-            if (gender)
-                console.log('мужской');
-            else    
-                console.log('женский');
-=======
             
             // спрашиваем пол         
             var gender=confirm('Если ваш пол мужской, нажмите "Ок", если женский, нажмите "Отмена"'); 
+            /*
             if (gender)
                 var m='мужской';
             else    
-                var m='женский';   
->>>>>>> 04f2bcdf59e6a3b1aad519c195d22ae32ba2759f
+                var m='женский';  
+            */    
+           
+            var m=(gender==true)?"мужской ":"женский ";
                 
             //проверка на пенсию
-            var pension
+            var pension=(age<60, gender==true)?'нет':'да';
+            /*
             if ( age<60, gender==true )
                 pension='да';
             if ( age>60, gender==false )
                  pension='нет';   
-
+            */
 
             //выводжу алерт с итогами анкеты
-<<<<<<< HEAD
-            alert( ageMsg + surname + name + patronymic+"\r\n" + yearMsg + age + yearDaysMsg + ( age*365 ) + yearAfter5YearsMsg + (age+5) + genderMsg + gender + pensionMsg + pension );
-=======
-            alert( (ageMsg + surname + name + patronymic)/n(yearMsg + age) + (yearDaysMsg+ (age*365)) + (yearAfter5YearsMsg + ( age+5 )) + (genderMsg + m) + (pensionMsg + pension));
->>>>>>> 04f2bcdf59e6a3b1aad519c195d22ae32ba2759f
+            alert (('Ваше ФИО: ' + surname  + name  + patronymic)/n ('Ваш возраст: ' + age) + 'Ваш возраст в днях: ' + (age*365) + 'Через 5 лет вам будет: ' + ( age+5 ) + 'Ваш пол: ' + m +  'Вы на пенсии: ' + pension);
     </script>
 </body>
 </html>
