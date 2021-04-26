@@ -124,12 +124,14 @@ color: #7C808A;
 
 }
 
-.header-nav-links{
-	padding-top: 20px;
-}
-
 .header-nav{
 	display: flex;
+}
+
+.header-nav-links{
+	display: flex;
+	padding-top: 20px;
+
 }
 
 .nav-link{
@@ -140,7 +142,7 @@ color: #7C808A;
     line-height: 19px;
     /* text-align: right; */
     color: #7C808A;
-	padding-right: 5em;
+	margin-right: 5em;
 }
 
 .header-btn{
@@ -287,6 +289,26 @@ p.paragraph-dark{
 
 
 /*---------ТРЕТИЙ ЭКРАН--------*/
+.block-3{
+	display: flex;
+	height: 803px;
+}
+
+.block-3-container{
+	display: flex;
+	flex-direction: column;
+	width: 1187px;
+	margin: 0 auto;
+	padding: 146px 0px 216px 0px;
+	background: url(../img/sun.png) 90% 5% no-repeat;
+}
+
+.block-3-text-article{
+	display: flex;
+	margin-top: 10em;
+
+}
+
 
 
 
