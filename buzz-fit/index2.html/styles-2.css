@@ -75,10 +75,6 @@ color: #7C808A;
 
 
 
-
-
-
-
 /* -------- КНОПКИ --------- */
 
 .ctr_btn{
@@ -105,6 +101,31 @@ color: #7C808A;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.ctr-btn-yellow{
+	display: flex;
+	justify-content: center;
+	background: #FFC565;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+	border-radius: 59px;
+	width: 330px;
+	height: 70px;
+	margin-top: 7em;
+}
+
+.ctr-btn-yellow span{
+display: flex;
+align-items: center;
+font-family: "Mriya Grotesk";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
 }
 
 /* --------------------------------- */
@@ -299,16 +320,44 @@ p.paragraph-dark{
 	flex-direction: column;
 	width: 1187px;
 	margin: 0 auto;
-	padding: 146px 0px 216px 0px;
+	padding: 146px 0px 0px 0px;
 	background: url(../img/sun.png) 90% 5% no-repeat;
 }
 
 .block-3-text-article{
 	display: flex;
 	margin-top: 10em;
-
 }
 
+.block-3-paragraph-dark{
+	font-family: "Mriya Grotesk";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 120%;
+	letter-spacing: -0.025em;
+	color: #515151;
+	padding-right: 50px;
+}
+
+
+/*---------ТРЕТИЙ ЭКРАН--------*/
+.block-4{
+	display: flex;
+	height: 803px;
+	background-color: #FEF6F6;
+}
+
+.block-4-container{
+	display: flex;
+	width: 1187px;
+	margin: 0 auto;
+	padding: 160px 0 0 0;
+}
+
+.block-4-article{
+
+}
 
 
 
