@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles-2.css">
     <title>BuzzFit-2</title>
+
+    
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+// Add the new slick-theme.css if you want the default styling
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
 </head>
 <body>
     <div class="wrapper">
@@ -26,7 +33,7 @@
                         <a class="nav-link" href="#">Device</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link-last" href="#">Login</a>
                     </li>
                         <div class="header-btn">
                             <a class="header-btn-btn" href="#">
@@ -170,13 +177,42 @@
                         Patient Rentension
                     </div>
                     <div class="paragraph-dark article-margin">
-                        <p>Your biggest loss of revenue is patient churn, costing you 30% of your patient roster anually.</p><br><br>
+                        <p>Your biggest loss of revenue is patient churn, costing you 30% of your patient roster anually.</p><br>
                         <p>92% of this loss is a result of protracted wait times. Buzz Fit reduces perceived waiting times by half.</p>
                     </div>
                     <div class="ctr-btn-yellow">
                         <span>Get your TV Box Now</span>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="block-8">
+            <div class="block-8-container">
+                <div class="block-8-article">
+                    <div class="h1">
+                        Patient Rentension
+                    </div>
+                    <div class="paragraph-dark article-margin article-margin-bottom">
+                        <p>Your biggest loss of revenue is patient churn, costing you 30% of your patient roster anually.</p><br>
+                        <p>92% of this loss is a result of protracted wait times. Buzz Fit reduces perceived waiting times by half.</p>
+                    </div>
+                    <div class="ctr-btn-violet">
+                        <span>Get your TV Box Now</span>
+                    </div>
+                </div>
+               <div class="block-8-slider">
+                   <div>
+                   <img src="../img/dialog-baloon.png" alt="">
+                   <div class="paragraph-bold slider-paragraph-padding">
+                        American singer-songwriter
+                   </div>
+               </div>
+               <div>
+                <img src="../img/dialog-baloon.png" alt="">
+                <div class="paragraph-bold slider-paragraph-padding">
+                     American singer-songwriter
+                </div>
+            </div>
             </div>
         </div>
     </div> 
@@ -190,5 +226,20 @@
        
     </footer>
 </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+  $('.block-8-slider').slick({
+    dots: true,
+  infinite: true,
+ 
+  });
+});
+</script>
 </body>
+
 </html>

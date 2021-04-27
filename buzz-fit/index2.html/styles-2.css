@@ -52,6 +52,15 @@ letter-spacing: -0.025em;
 color: #7C808A;
 }
 
+.paragraph-bold{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 175%;
+	color: #000000;
+}
+
 
 .paragraph-dark{
 	font-family: "Mriya Grotesk";
@@ -186,6 +195,7 @@ text-transform: uppercase;
 
 	.btn-url{
 		display: flex;
+		align-items: center;
     	margin-left: 80px;
     	margin: 25px 0 0 60px;
 	}
@@ -231,6 +241,22 @@ text-transform: uppercase;
     /* text-align: right; */
     color: #7C808A;
 	margin-right: 5em;
+}
+
+.nav-link-last{
+	font-family: 'Mriya Grotesk';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: right; */
+    color: #7C808A;
+	margin-right: 5em;
+}
+
+.nav-link-last::before{
+		content: url(../img/Login\ Icon.png);
+		padding-right: 5px;
 }
 
 .header-btn{
@@ -368,7 +394,7 @@ p.paragraph-dark{
 	line-height: 120%;
 	letter-spacing: -0.025em;
 	color: #515151;
-	border-bottom: 4.16847px solid #79D8FF;
+	text-decoration: underline 4.16847px solid #79D8FF;
 	
 }
 
@@ -503,6 +529,47 @@ p.paragraph-dark{
     flex-direction: column;
 	margin: 3em 0 0 10em;
 }
+
+
+
+/*------ ВОСЬМОЙ ЭКРАН---------*/
+
+.block-8{
+	display: flex;
+	height: 830px;
+	background: url(../img/block-8-bg.png);
+	
+}
+
+.block-8-container{
+	display: flex;
+	width: 1250px;
+	margin: 0 auto;
+	padding: 160px 0 0 0;
+}
+
+.block-8-article{
+	display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+	padding-right: 10em;
+}
+
+.article-margin-bottom{
+	margin-bottom: 3em;
+}
+
+/*.block-8-slider{
+	margin: -5% 0 0 0;
+}*/
+
+/*.block-8-img{
+    margin: -10% 50%;
+}*/
+
+/*.slider-paragraph-padding{
+	padding: 4% 0 0 23%;
+}*/
 
 
 /*---------FOOTER----------*/
