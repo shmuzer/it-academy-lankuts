@@ -40,6 +40,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 
+.margin-center{
+	margin: 0 auto;
+}
+
+
 /*------ ЗАГОЛОВКИ------*/
 
 .paragraph-light{
@@ -50,6 +55,15 @@ font-size: 18px;
 line-height: 100%;
 letter-spacing: -0.025em;
 color: #7C808A;
+}
+
+.paragraph{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 175%;
+	color: #515151;
 }
 
 .paragraph-bold{
@@ -91,8 +105,6 @@ color: #7C808A;
     justify-content: center;
     width: 330px;
     height: 70px;
-    left: 245.07px;
-    top: 757.7px;
     background: #61B2AA;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
@@ -564,18 +576,51 @@ p.paragraph-dark{
 	margin: -5% 0 0 0;
 	text-align: center;
 
-}*/
+}
 
 .block-8-img{
     margin: -10% 50%;
-}*/
+}
 
-/*.slider-paragraph-padding{
-	padding: 4% 0 0 23%;
-}*/
 
 .block-8-slider-img{
 	margin: auto;
+}
+
+
+/*-------ДЕЯТЫЙ ЭКРАН-------*/
+.block-9{
+	display: flex;
+    height: 1100px;
+    background-color: #F4F3FA;
+    flex-direction: column;
+}
+
+.block-9-bg{
+	box-shadow: 0px 1px 15px 6px rgb(129 128 128 / 6%);
+	border-radius: 40px;
+	margin: -50px 0 0 0;
+}
+
+.block-9-container{
+	display: flex;
+    width: 1187px;
+    margin: 0 auto;
+    padding: 160px 0 100px 0;
+}
+
+.block-9-div-text{
+	text-align: center;
+    padding: 0px 70px;
+}
+
+.block-9-div-img{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.margin-ctr-9{
+	margin: 50px auto;
 }
 
 /*---------FOOTER----------*/
