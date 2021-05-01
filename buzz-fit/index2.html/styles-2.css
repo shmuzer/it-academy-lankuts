@@ -780,6 +780,38 @@ div.double-bg-article > div.h1{
 	padding: 1em 0;
 }
 
+.content-page-block-slider{
+	display: flex;
+	flex-direction: column;
+	height: 830px;
+	width: 1187;
+	background-color: #EFF8FA;
+}
+
+div.content-page-block-slider > div.h1{
+	text-align: center;
+	margin: 2em;
+	
+}
+
+.content-page-slider{
+	display: flex;
+	margin: 0 auto;
+	width: 1280px;
+
+}
+
+.content-page-slider-item{
+	/*margin: 0 10px;*/
+	width: 400px;	
+	height: auto;
+}
+
+.content-page-slider-item > img{
+	width: 95%;
+	padding: 10px 0;
+}
+
 
 
 /*---------FOOTER----------*/

@@ -44,24 +44,6 @@
                 </div>
             </div>
         </header>
-
-        <!--<div class="block-1">
-            <div class="block-1-article" >
-                <div class="h1">
-                    Buzz Fit engages more of your patients more of the time
-                </div>
-                <div class="paragraph-xtra-large">
-                    Viewer preferences vary in a huge way and finding something that can entertain, engage and edcuate is a challenge.
-                </div>
-                <div class="paragraph-xtra-large">
-                    Ask yourself, is the content playing in my waiting relevant and engaging to all my patients? 
-                </div>
-            </div>
-            <div class="block-5-image">
-                <img src="../img/chart-content-page.png" alt="chart was here" title="chart">
-            </div>
-        </div>-->
-
         <div class="block-5">
             <div class="block-5-container">
                 <div class="block-5-article">
@@ -116,9 +98,94 @@
                 
             </div>
         </div>
+    </div>
+    <div class="content-page-block-slider">
+        <div class="h1">
+            Get a taste of our programing
         </div>
+        <div class="content-page-slider">
+            <div class="content-page-slider-item">
+                <img src="../img/img-1.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-2.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-3.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-4.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-5.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-6.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-7.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-8.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-9.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-10.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-11.jpg" alt="">
+            </div>
+            <div class="content-page-slider-item">
+                <img src="../img/img-12.jpg" alt="">
+            </div>
 
-    </div>    
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <img src="../img/Logo BuzzFit.svg" alt="logo">
+                    <a class="paragraph-light" href="#">Company</a>
+                    <a class="paragraph-light" href="#">Support</a>
+                    <a class="paragraph-light" href="#">Community</a>
+                    <a class="paragraph-light" href="#">UP</a>
+                    <a class="paragraph-light" href="#">Twitter</a>
+                    <a class="paragraph-light" href="#">About Us</a>
+                    <a class="paragraph-light" href="#">FAQ</a>
+                    <a class="paragraph-light" href="#" grid-row: 4 / span 5;>Blog</a>
+                    
     
+                </div>
+            </div>
+    
+           
+        </footer>
+    </div>   
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+  $('.content-page-slider').slick({
+    dots: true,
+    slidesPerRow: 3,
+    rows: 2,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    responsive: [
+    {
+      breakpoint: 478,
+      settings: {
+        slidesPerRow: 1,
+        rows: 1,
+      }
+    }
+  ]
+});
+    })
+</script>
 </body>
 </html>
