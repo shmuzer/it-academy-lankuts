@@ -87,6 +87,17 @@ color: #7C808A;
 	color: #515151;
 }
 
+
+.paragraph-large{
+font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 175%;
+text-align: center;
+color: #515151;
+}
+
 .h1{
 	font-family: "Mriya Grotesk";
 	font-style: normal;
@@ -160,6 +171,32 @@ font-size: 18px;
 line-height: 22px;
 text-align: center;
 text-transform: uppercase;
+}
+
+.ctr-btn-blue{
+	display: flex;
+	justify-content: center;
+	background: #5288DF;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+	border-radius: 59px;
+	width: 330px;
+	height: 70px;
+	margin-top: 2em;
+}
+
+.ctr-btn-blue span{
+display: flex;
+align-items: center;
+font-family: "Mriya Grotesk";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 
 .ctr-btn-pink{
@@ -333,7 +370,7 @@ text-transform: uppercase;
 	font-weight: 900;
 	font-size: 75px;
 	line-height: 120%;
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 	/* or 90px */
 	letter-spacing: -0.025em;
 }
@@ -361,8 +398,16 @@ text-transform: uppercase;
 .block-1-article{
 	display: flex;
     flex-direction: column;
-    flex-basis: 49%;
+    flex-basis: 40%;
 }
+
+div.block-1-article > div.title{
+padding-bottom: 50px;
+}
+
+div.block-1-article > div.h1{
+	padding-bottom: 50px;
+	}
 
 
 .block-1-image{
@@ -493,7 +538,11 @@ p.paragraph-dark{
 	display: flex;
 	width: 1187px;
 	margin: 0 auto;
-	padding: 160px 0 0 0;
+	/*padding: 160px 0 0 0;*/
+}
+
+.block-5-padding{
+padding: 160px 0 0 0;
 }
 
 .block-5-article{
@@ -685,10 +734,57 @@ div.block-10-slider > div{
 }
 
 
+/*----------CONTENT PAGE---------*/
+.double-bg{
+display: inline-block;
+height: 600px;
+margin: 0 auto;
+
+}
+
+.double-bg-1{
+float: left;
+width: 50%;
+height: 100%;
+background-color: #F4F3FA;
+background: url(../img/couch\ left.png) no-repeat bottom left;
+}
+
+
+.double-bg-2{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #FFF8F8;
+	background: url(../img/couch.png) no-repeat bottom right;
+}
+
+
+.double-bg-article{
+	margin: 15% 15% 0 10%;
+	width: auto;
+}
+
+.double-bg-1-img{
+	float: left;
+	margin: 8em 2em;
+	height: 100%;
+}
+
+div.double-bg-2 > div.double-bg-1-img{
+	float: right;
+}
+
+
+div.double-bg-article > div.h1{
+	padding: 1em 0;
+}
+
+
+
 /*---------FOOTER----------*/
 .footer-container{
 	display: flex;
-    flex-direction: column;
     justify-content: center;
 	height: 476px;
 	background: linear-gradient(1deg, rgba(81, 77, 128, 0) 0%, #6d628e14 151.63%);
@@ -696,6 +792,7 @@ div.block-10-slider > div{
 }
 
 .footer-menu{
+	top: 50%;
 	display: grid;
 	width: 1187px;
 	margin: 0 auto;
