@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles-2.css">
+        <title>BuzzFit</title>
+    
+        
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1e36a6d1-2061-402b-bc01-c95131a8b303&lang=ru_RU" type="text/javascript">
+    </script>
+    
+    </head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <img class="logo" src="../img/Logo BuzzFit.svg">
+                </div>
+                <div class="header-nav">
+                    <ul class="header-nav-links">
+                        <li>
+                            <a class="nav-link" href="#">How it works</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Content</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Device</a>
+                        </li>
+                        <li>
+                            <a class="nav-link-last" href="#">Login</a>
+                        </li>
+                            <div class="header-btn">
+                                <a class="header-btn-btn" href="#">
+                                    <span>get now</span>
+                                </a>
+                            </div>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="contacts-head">
+            <div class="contacts-head-continer">
+                <div class="title">
+                    Contact Us
+                </div>
+                <div class="img">
+                    <img src="../img/customer support.png" alt="image of customer support" title="this is customer support">
+                </div>
+            </div>
+        </div>
+        <div class="contacts-form-div">
+            <div class="contacts-form-div-container">
+                <div class="paragraph-xtra-large">
+                    Please fill out your contact details. Our customer support will get in touch with you shortly.
+                </div>
+                <form action=""></form>
+            </div>
+        </div>
+        <div id="map">
+
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-menu">
+                    <img src="../img/Logo BuzzFit.svg" alt="logo">
+                    <a class="paragraph-light" href="#">Company</a>
+                    <a class="paragraph-light" href="#">Support</a>
+                    <a class="paragraph-light" href="#">Community</a>
+                    <a class="paragraph-light" href="#">UP</a>
+                    <a class="paragraph-light" href="#">Twitter</a>
+                    <a class="paragraph-light" href="#">About Us</a>
+                    <a class="paragraph-light" href="#">FAQ</a>
+                    <a class="paragraph-light" href="#" grid-row: 4 / span 5;>Blog</a>
+                    
+    
+                </div>
+            </div>
+    
+           
+        </footer>
+    </div> 
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [55.76, 37.64],
+                zoom: 7
+            });
+        }
+    </script>
+ 
+</body>
+</html

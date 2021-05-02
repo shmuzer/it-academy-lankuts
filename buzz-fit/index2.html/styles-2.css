@@ -274,7 +274,7 @@ color: #FFFFFF;
 .header-wrapper{
 	display: flex;
 	justify-content: space-between;
-	height: 249px;
+	height: 170px;
 	padding-top: 5em;
 	width: 1187px;
 	margin: 0 auto;
@@ -384,6 +384,10 @@ color: #FFFFFF;
 	color: #7C808A;
 	padding-bottom: 72px;
 }
+
+#map {
+	height: 100%;
+  }
 
 /*----- Первый экран -----*/
 
@@ -813,6 +817,26 @@ div.content-page-block-slider > div.h1{
 }
 
 
+/*--------CONTACTS PAGE-----------*/
+.contacts-head{
+	display: flex;
+    justify-content: space-between;
+	width: 100%;
+	height: 345px;
+	background: url(../img/contacts-bg.png) no-repeat ;
+}
+
+.contacts-head-continer{
+	width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.contacts-head-continer > div.img{
+height: 374px;
+}
 
 /*---------FOOTER----------*/
 .footer-container{
