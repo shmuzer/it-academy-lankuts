@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles-2.css">
+        <title>BuzzFit</title>
+    
+        
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <style>
+        .accordion{
+            width: 1150px;
+            margin: 0 auto;
+        }
+
+
+        .tab input, .tab-content { display: none; }
+        .tab {
+         border-bottom: 1px solid #e9eaec; /* Параметры рамки */
+         color: #515151; /* Цвет текста */
+         margin-bottom: 35px; /* Расстояние между пунктами */
+        }
+
+
+        .tab-title {
+            font-family: "Mriya Grotesk";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 250%;
+            letter-spacing: -0.025em;
+            text-transform: capitalize;
+            color: #292930;
+            padding: 10px; /* Поля вокруг текста */
+            display: block; /* Блочный элемент */
+            font-weight: bold; /* Жирное начертание */
+            cursor: pointer; /* Вид курсора */
+        }
+        .tab-title::after {
+         content: url(../img/down.svg); /* Выводим плюс */
+         float: right; /* Размещаем по правому краю */
+        }
+        .tab-content {
+         padding: 10px 20px; /* Поля вокруг текста */
+        }
+        .tab :checked + .tab-title {
+        
+        border-radius: 3px 3px 0 0; /* Скругляем уголки */
+        color: #61B2AA; /* Цвет текста */
+        }
+        .tab :checked + .tab-title::after {
+         content: url(../img/down.svg) ; /* Выводим минус */
+         transform: rotate(0.5turn);
+        }
+        .tab :checked ~ .tab-content {
+         display: block; /* Показываем содержимое */
+        }
+       </style>
+    
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <img class="logo" src="../img/Logo BuzzFit.svg">
+                    </div>
+                    <div class="header-nav">
+                        <ul class="header-nav-links">
+                            <li>
+                                <a class="nav-link" href="#">How it works</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Content</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Device</a>
+                            </li>
+                            <li>
+                                <a class="nav-link-last" href="#">Login</a>
+                            </li>
+                                <div class="header-btn">
+                                    <a class="header-btn-btn" href="#">
+                                        <span>get now</span>
+                                    </a>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+           <div class="accordion"> 
+            <div class="tab">
+             <input type="checkbox" id="tab1" name="tab-group">
+             <label for="tab1" class="tab-title">What is Buzz Fit?</label> 
+             <section class="tab-content"> 
+              <p>Yes. Buzz Fit's content is based specifically on healthcare. It is designed and created to motivate better health management, implement meaningful lifestyle changes, and improve patients' knowledge of common health risks and treatments.
+            </p>
+             </section> 
+            </div> 
+            <div class="tab">
+             <input type="checkbox" id="tab2" name="tab-group">
+             <label for="tab2" class="tab-title">Is Buzz Fit's content based on healthcare education only?</label> 
+             <section class="tab-content"> 
+                <p>Yes. Buzz Fit's content is based specifically on healthcare. It is designed and created to motivate better health management, implement meaningful lifestyle changes, and improve patients' knowledge of common health risks and treatments.
+                </p>
+             </section> 
+            </div> 
+            <div class="tab">
+             <input type="checkbox" id="tab3" name="tab-group">
+             <label for="tab3" class="tab-title">Чем HTML5 отличается от HTML4?</label>
+             <section class="tab-content">
+              В HTML5 добавлены новые элементы, вроде &lt;header&gt;, &lt;footer&gt;, 
+              &lt;aside&gt;, &lt;article&gt;, появилась долгожданная поддержка аудио, 
+              видео и многое другое.
+             </section>
+            </div>
+           </div>
+            </body>
+
+            <footer>
+            <div class="footer-container">
+            <div class="footer-menu">
+                <img src="../img/Logo BuzzFit.svg" alt="logo">
+                <a class="paragraph-light" href="#">Company</a>
+                <a class="paragraph-light" href="#">Support</a>
+                <a class="paragraph-light" href="#">Community</a>
+                <a class="paragraph-light" href="#">UP</a>
+                <a class="paragraph-light" href="#">Twitter</a>
+                <a class="paragraph-light" href="#">About Us</a>
+                <a class="paragraph-light" href="#">FAQ</a>
+                <a class="paragraph-light" href="#" grid-row: 4 / span 5;>Blog</a>
+                
+
+            </div>
+        </div>
+    </div>
+    </footer>
