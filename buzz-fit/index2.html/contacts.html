@@ -12,8 +12,7 @@
     // Add the new slick-theme.css if you want the default styling
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=1e36a6d1-2061-402b-bc01-c95131a8b303&lang=ru_RU" type="text/javascript">
-    </script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1e36a6d1-2061-402b-bc01-c95131a8b303&lang=ru_RU" type="text/javascript"></script>
         <script src="balloon_and_hint.js" type="text/javascript"></script>
     
     </head>
@@ -90,19 +89,24 @@
     </div> 
     <script type="text/javascript">
         ymaps.ready(init);
-        function init(){
+
+        function init () {
             var myMap = new ymaps.Map("map", {
-                center: [54.043946, 40.894283],
-                zoom: 7
-            });
+                    center: [37.759210, -122.444764],
+                    zoom: 5
+                }, {
+                    searchControlProvider: 'yandex#search'
+                }),
+                myPlacemark = new ymaps.Placemark([37.759210, -122.444764], {
+                    // Чтобы балун и хинт открывались на метке, необходимо задать ей определенные свойства.
+                    balloonContentHeader: "Балун метки",
+                    balloonContentBody: "Содержимое <em>балуна</em> метки",
+                    balloonContentFooter: "Подвал",
+                    hintContent: "Хинт метки"
+                });
+
+            myMap.geoObjects.add(myPlacemark);
         }
-        myPlacemark = new ymaps.Placemark([55.907228, 31.260503], {
-            // Чтобы балун и хинт открывались на метке, необходимо задать ей определенные свойства.
-            balloonContentHeader: "Балун метки",
-            balloonContentBody: "Содержимое <em>балуна</em> метки",
-            balloonContentFooter: "Подвал",
-            hintContent: "Хинт метки"
-        });
     </script>
  
 </body>
