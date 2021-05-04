@@ -849,6 +849,11 @@ div.content-page-block-slider > div.h1{
 	background: url(../img/contacts-bg.png);
 }
 
+.faq-head{
+	background: url(../img/faq-bg.png);
+	height: 356px;
+}
+
 .contacts-form-div{
 	width: 1280px;
 	height: 600px;
@@ -880,6 +885,23 @@ height: 374px;
 div.form-group > textarea {
 	resize: none;
 }
+
+/*-----PRIVACY------*/
+
+.table-privacy-container{
+	width: 1170px;
+	margin: 60px auto;
+}
+
+.table-privacy{
+
+}
+
+.th-width{
+	vertical-align: baseline;
+	width: 30%;
+}
+
 /*---------FOOTER----------*/
 .footer-container{
 	display: flex;
