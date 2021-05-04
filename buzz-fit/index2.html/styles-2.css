@@ -49,13 +49,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .paragraph-light{
 	display: inline-block;
-font-family: "Open Sans";
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: -0.025em;
-color: #7C808A;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 100%;
+	letter-spacing: -0.025em;
+	color: #7C808A;
 }
 
 .paragraph{
@@ -89,13 +89,13 @@ color: #7C808A;
 
 
 .paragraph-large{
-font-family: "Open Sans";
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 175%;
-text-align: center;
-color: #515151;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 175%;
+	text-align: center;
+	color: #515151;
 }
 
 .h1{
@@ -108,16 +108,27 @@ color: #515151;
 	color: #292930;
 }
 
+.h3{
+	font-family: "Mriya Grotesk";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 120%;
+	letter-spacing: -0.025em;
+	text-transform: capitalize;
+	color: #292930;
+}
+
 .heading-subtitle-small{
-font-family: "Mriya Grotesk";
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-letter-spacing: 0.25em;
-text-transform: uppercase;
-color: #292930;
+	font-family: "Mriya Grotesk";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	color: #292930;
 }
 
 
@@ -162,15 +173,15 @@ color: #292930;
 }
 
 .ctr-btn-yellow span{
-display: flex;
-align-items: center;
-font-family: "Mriya Grotesk";
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	font-family: "Mriya Grotesk";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 
@@ -201,16 +212,16 @@ text-transform: uppercase;
 }
 
 .ctr-btn-blue span{
-display: flex;
-align-items: center;
-font-family: "Mriya Grotesk";
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	font-family: "Mriya Grotesk";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 .ctr-btn-pink{
@@ -236,7 +247,7 @@ color: #FFFFFF;
 	line-height: 22px;
 	text-align: center;
 	text-transform: uppercase;
-	}
+}
 
 .ctr-btn-violet	{
 	display: flex;
@@ -248,7 +259,6 @@ color: #FFFFFF;
 	border-radius: 59px;
 	width: 330px;
 	height: 70px;
-	/*margin-top: 7em;*/
 }
 
 .ctr-btn-violet span{
@@ -261,11 +271,11 @@ color: #FFFFFF;
 	line-height: 22px;
 	text-align: center;
 	text-transform: uppercase;
+	color: #FFFFFF;
 	}
 
 	.button-container{
 		display: flex;
-
 		margin-top: 7em;
 	}
 
@@ -289,11 +299,10 @@ color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
 	height: 170px;
-	padding-top: 5em;
+	padding-top: 4em;
 	width: 1187px;
 	margin: 0 auto;
 }
-
 
 
 .header-nav{
@@ -893,8 +902,8 @@ div.form-group > textarea {
 	margin: 60px auto;
 }
 
-.table-privacy{
-
+td{
+	padding: 0 0 20px 0;
 }
 
 .th-width{
