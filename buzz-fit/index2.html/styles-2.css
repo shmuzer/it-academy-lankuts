@@ -301,12 +301,14 @@ a.ctr-btn-yellow{
 .header-wrapper{
 	display: flex;
 	justify-content: space-between;
-	height: 170px;
-	padding-top: 4em;
+	align-items: center;
+	margin: 3em auto;
+}
+
+.header-container{
 	width: 1187px;
 	margin: 0 auto;
 }
-
 
 .header-nav{
 	display: flex;
@@ -314,9 +316,9 @@ a.ctr-btn-yellow{
 
 .header-nav-links{
 	display: flex;
-	padding-top: 20px;
-
 }
+
+
 
 .nav-link{
 	font-family: 'Mriya Grotesk';
@@ -324,9 +326,7 @@ a.ctr-btn-yellow{
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    /* text-align: right; */
     color: #7C808A;
-	margin-right: 5em;
 }
 
 .nav-link-last{
@@ -335,7 +335,6 @@ a.ctr-btn-yellow{
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-    /* text-align: right; */
     color: #7C808A;
 	margin-right: 5em;
 }
@@ -343,6 +342,10 @@ a.ctr-btn-yellow{
 .nav-link-last::before{
 		content: url(../img/Login\ Icon.png);
 		padding-right: 5px;
+}
+
+ul.header-nav-links li{
+	margin: 0 0 0 30px;
 }
 
 .header-btn{
@@ -943,3 +946,13 @@ td{
 	grid-template-columns: repeat(5, 20%); grid-template-rows: repeat(5, 50px);
 }
 /*-------------------------*/
+
+/* ------  медиа запросы -------*/
+
+
+
+@media (max-width: 1019px){
+	.header-wrapper{
+		flex-direction: column;
+	}
+}
