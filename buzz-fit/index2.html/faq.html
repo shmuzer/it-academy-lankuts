@@ -10,55 +10,6 @@
         
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <style>
-        .accordion{
-            width: 1150px;
-            margin: 65px auto;
-        }
-
-
-        .tab input, .tab-content { display: none; }
-        .tab {
-         border-bottom: 1px solid #e9eaec; /* Параметры рамки */
-         color: #515151; /* Цвет текста */
-         margin-bottom: 35px; /* Расстояние между пунктами */
-        }
-
-
-        .tab-title {
-            font-family: "Mriya Grotesk";
-            font-style: normal;
-            font-weight: 900;
-            font-size: 24px;
-            line-height: 250%;
-            letter-spacing: -0.025em;
-            text-transform: capitalize;
-            color: #292930;
-            padding: 10px; /* Поля вокруг текста */
-            display: block; /* Блочный элемент */
-            font-weight: bold; /* Жирное начертание */
-            cursor: pointer; /* Вид курсора */
-        }
-        .tab-title::after {
-         content: url(../img/down.svg); /* Выводим плюс */
-         float: right; /* Размещаем по правому краю */
-        }
-        .tab-content {
-         padding: 10px 20px; /* Поля вокруг текста */
-        }
-        .tab :checked + .tab-title {
-        
-        border-radius: 3px 3px 0 0; /* Скругляем уголки */
-        color: #61B2AA; /* Цвет текста */
-        }
-        .tab :checked + .tab-title::after {
-         content: url(../img/down.svg) ; /* Выводим минус */
-         transform: rotate(0.5turn);
-        }
-        .tab :checked ~ .tab-content {
-         display: block; /* Показываем содержимое */
-        }
-       </style>
     
     </head>
     
