@@ -578,7 +578,7 @@ p.paragraph-dark{
 /*---------ПЯТЫЙ ЭКРАН--------*/
 .block-5 {
 	display: flex;
-	height: 803px;
+	height: 700px;
 }
 
 .block-5-container{
@@ -798,7 +798,7 @@ div.block-10-slider > div{
 display: inline-block;
 height: 900px;
 margin: 0 auto;
-
+	background: ghostwhite;
 }
 
 .double-bg-1{
