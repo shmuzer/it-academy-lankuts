@@ -308,6 +308,7 @@ a.ctr-btn-yellow{
 .header-container{
 	width: 1187px;
 	margin: 0 auto;
+	padding: 0 0 10px 0;
 }
 
 .header-nav{
@@ -435,6 +436,7 @@ ul.header-nav-links li{
     justify-content: flex-start;
 	width: 1187px;
 	margin: 0 auto;
+
 }
 
 .block-1-article{
@@ -451,9 +453,12 @@ div.block-1-article > div.h1{
 	padding-bottom: 50px;
 	}
 
+div.block-1-article >	div.paragraph-xtra-large{
+	padding: 0 0 90px 0;
+}
+
 
 .block-1-image{
-	display: flex;
     position: absolute;
     padding-left: 580px;
 }
@@ -462,7 +467,7 @@ div.block-1-article > div.h1{
 /*----- Второй экран ------*/
 
 .block-2{
-	height: 950px;
+	height: 830px;
 	background-color: #EFF8FA;
 }
 
@@ -471,7 +476,7 @@ div.block-1-article > div.h1{
 	flex-direction: column;
 	width: 1187px;
 	margin: 0 auto;
-	padding: 146px 0px 216px 0px;
+	padding: 146px 0px 0px 0px;
 	background: url(../img/thunder\ -cloud.png) 90% 5% no-repeat;
 }
 
@@ -483,7 +488,7 @@ div.block-1-article > div.h1{
 .block-2-text-article{
 	display: flex;
 	flex-direction: column;
-	padding-right: 5em;
+	padding-right: 15em;
 }
 
 .block-2-text-list{
@@ -677,7 +682,7 @@ padding: 160px 0 0 0;
 
 .block-8-slider{
 	width: 700px;
-	margin: -5% 0 0 0;
+	/*margin: -5% 0 0 0;*/
 	text-align: center;
 
 }
@@ -1011,6 +1016,9 @@ table.mobile{
 	grid-template-columns: repeat(5, 20%); grid-template-rows: repeat(5, 50px);
 }
 /*-------------------------*/
+
+
+
 
 /* ------  медиа запросы -------*/
 

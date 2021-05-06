@@ -67,11 +67,11 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 50px;
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #888888;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -116,13 +116,13 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 65px;
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -45px;
 
     display: block;
 
@@ -178,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 6px;
+    font-size: 20px;
     line-height: 20px;
 
     position: absolute;
