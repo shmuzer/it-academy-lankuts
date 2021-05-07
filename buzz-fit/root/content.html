@@ -41,13 +41,14 @@
                         <li>
                             <a class="nav-link-last" href="#">Login</a>
                         </li>
+                            <div class="header-btn">
                                 <a class="header-btn-btn" href="#">
                                     <span>get now</span>
                                 </a>
                             </div>
                     </ul>
                 </div>
-            
+            </div>
         </header>
         <div class="block-5">
             <div class="block-5-container">
@@ -152,22 +153,30 @@
             <div class="footer-wrapper">
                 <div class="footer-container">
                 <div class="footer-col">
-                    <div class="footer-title">Company</div>
+                    <div class="footer-title"><a href="/" class="nav-link-footer"><img src="../img/Logo BuzzFit.svg" alt=""></a></div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <span>Copyright 2021. Buzz Fit.</span>
+                        </li>
+                    </ul>
                 </div> 
                 <div class="footer-col">
                     <div class="footer-title">Company</div>
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">About Us</a>
+                            <a href="#" class="nav-link-footer">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">How It Works</a>
+                            <a href="#" class="nav-link-footer">How It Works</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Device</a>
+                            <a href="#" class="nav-link-footer">Device</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Buy Now</a>
+                            <a href="#" class="nav-link-footer">Buy Now</a>
                         </li>
                     </ul>
                 </div>
@@ -175,16 +184,16 @@
                     <div class="footer-title">Support</div>
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">FAQ</a>
+                            <a href="#" class="nav-link-footer">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Cookies</a>
+                            <a href="#" class="nav-link-footer">Cookies</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Privacy policy</a>
+                            <a href="#" class="nav-link-footer">Privacy policy</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">T’s & C’s</a>
+                            <a href="#" class="nav-link-footer">T’s & C’s</a>
                         </li>
                     </ul>
                 </div>
@@ -192,10 +201,10 @@
                     <div class="footer-title">Community</div>
                     <ul class="nav-list">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Blog</a>
+                            <a href="#" class="nav-link-footer">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Advertise with us</a>
+                            <a href="#" class="nav-link-footer">Advertise with us</a>
                         </li>
                     </ul>
                 </div>  
@@ -218,10 +227,11 @@
     arrows: false,
     responsive: [
     {
-      breakpoint: 478,
+      breakpoint: 650,
       settings: {
-        slidesPerRow: 1,
-        rows: 1,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        
       }
     }
   ]
