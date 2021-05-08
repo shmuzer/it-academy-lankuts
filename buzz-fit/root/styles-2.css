@@ -1226,7 +1226,7 @@ li.nav-item span{
 		width: auto;
 	}
 	.footer-container {
-		flex-direction: column;
+		/*flex-direction: column;*/
 		align-items: center;
 	}
 	
@@ -1342,6 +1342,13 @@ li.nav-item span{
 	/*  faq  */
 	
 }
+	
+	@media screen and (max-width: 730px){
+	
+	.footer-container {
+    flex-direction: column;
+		}
+	}
 
 @media screen and (max-width: 573px){
 	.header-nav-links{
